@@ -272,6 +272,15 @@ loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/ma
 	end,
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
+page:Button({
+	Title = "internal executor",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nikoladhima/Internal-executor-UI/refs/heads/main/Internal-executor-UI"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
 local tab = main:createtab({
 	Name = "mamar galo"
 })

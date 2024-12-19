@@ -1,0 +1,412 @@
+
+_G.Settings = {
+	UI = {
+		Key = Enum.KeyCode.RightControl,
+	}
+}
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/SixZensED/Discord-Library/main/Library"))()
+local main = Library:create({
+	Name = "tomi nalga hub / YANDRA RANSS"
+})
+local tab = main:createtab({
+	Name = "el hub"
+})
+local section = tab:createsection({
+Name = "bienvenide mi amigue rancie"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "hola perro",
+})
+page:Line()
+page:Modal({
+	Title = "espero que te guste la nalga de tomi. esta vez le hicimos un retoque con la rancia de pandra! !RANSS!"
+})
+a = page:Label({
+	Title = "recuerda que con ctrl derecho cierras o abres el gui",
+})
+-- Functions
+-- a:Update("Xova's Team Best UI")
+-- Functions
+-- a:Update("Xova's Team Best UI")
+local tab = main:createtab({
+	Name = "scripts para juegos"
+})
+local section = tab:createsection({
+Name = "fisch"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para fisch",
+})
+-- Functions
+-- a:Update("Xova's Team Best UI")
+page:Button({
+	Title = "speed hub",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "spectrum hub",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://you.whimper.xyz/spectrum"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "blox fruits"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para blox fruits",
+})
+page:Modal({
+	Title = "hoho hub NO funciona en solara"
+})
+-- Functions
+-- a:Update("Xova's Team Best UI")
+page:Button({
+	Title = "hoho hub",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "driving empire"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para driving empire",
+})
+page:Button({
+	Title = "auto farm",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/drivingempire", true))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "doors"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para doors",
+})
+page:Button({
+	Title = "el script que recomendo yandra",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"))()
+	end,
+})
+local section = tab:createsection({
+Name = "murderers vs sheriffs"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para murderers vs sheriffs",
+})
+page:Modal({
+	Title = "key de proyecto lkb: OpScriptsLuaCode"
+})
+-- Functions
+-- a:Update("Xova's Team Best UI")
+page:Button({
+	Title = "projeto lkb",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+_G.Circlepartsblock = 125
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zk0o/function-table-return/refs/heads/main/end"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "breaking point"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para breaking point",
+})
+page:Button({
+	Title = "aimbot gui",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ColdStep2/Breaking-Point-Funny-Squid-Hax/main/Breaking%20Point%20Funny%20Squid%20Hax",true))();
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "breaking+",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NaikoScript/Breaking-Plus/main/Script"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "arsenal"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para arsenal",
+})
+page:Button({
+	Title = "solaris",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/toasty-dev/pissblox/main/solaris_bootstrapper.lua",true))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "ninja legends"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para ninja legends",
+})
+page:Button({
+	Title = "noxine hub",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/9ccd19089cb4d74bd2ac8902fb910027.lua"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+
+-- Functions
+-- a:Update("Xova's Team Best UI")
+page:Button({
+	Title = "fast auto farm",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zepsyy2/asd/main/Ninja%20Legends.lua"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Modal({
+	Title = "el fast auto farm se crashea si usas muchas funciones al mismo tiempo"
+})
+local tab = main:createtab({
+	Name = "admin/dex/etc"
+})
+local section = tab:createsection({
+Name = "scripts de admin o investigacion"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para ver dentro del juego o visualizar cosas",
+})
+page:Button({
+	Title = "infinite yield",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "dex explorer",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MassiveHubs/loadstring/refs/heads/main/DexXenoAndRezware'))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Line()
+a = page:Label({
+	Title = "-hubs universales-",
+})
+page:Modal({
+	Title = "la key para orca hub: bestscriptfr"
+})
+-- Functions
+-- a:Update("Xova's Team Best UI")
+page:Button({
+	Title = "orca hub",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DarkScripter1/Main/refs/heads/main/Script"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "shets para gordos"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para gordos sin vida",
+})
+a = page:Label({
+	Title = "sirven para hacer scripts",
+})
+page:Line()
+page:Button({
+	Title = "simple spy",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpyBeta.lua"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local tab = main:createtab({
+	Name = "mamar galo"
+})
+local section = tab:createsection({
+Name = "animaciones"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "animaciones R6",
+})
+page:Button({
+	Title = "kj moveset",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/EmmjKtwG"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+
+-- Functions
+-- a:Update("Xova's Team Best UI")
+page:Line()
+a = page:Label({
+	Title = "scripts con accesorios",
+})
+page:Line()
+page:Button({
+	Title = "conseguir la espada para las animaciones",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+--https://www.roblox.com/games/7541759836/unnamed
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KissxTay/caramelldansen/main/chinese%20event", true))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Line()
+page:Button({
+	Title = "neptunian v",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/gMvDG3VY"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "goner",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/4sayVVUc"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "sadist genocider",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GenesisFE/Genesis/main/Loadstrings/Sadist%20Genocider"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "molestar"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "#somosmuyuwu",
+})
+page:Button({
+	Title = "pandear",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/rAcdqidq"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "pandear v2",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/benguss/282f472a00289fc4fb8ac95a5c0a6488/raw/23a402a19a7bdead6080dfe36498b68d0c3de779/Roblox%2520Bang%2520Script%2520(NSFW)"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "boogie woogie",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/vHHmERvv"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Line()
+page:Button({
+	Title = "se him gui",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/mNfpPGRs"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Modal({
+	Title = "se him solo sirve con partes desmembradas"
+})
+
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+local section = tab:createsection({
+Name = "funciones del chat"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "di p0rquer1as UWU con estos scripts",
+})
+page:Button({
+	Title = "chat bypass",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/xAbiqCmH"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})

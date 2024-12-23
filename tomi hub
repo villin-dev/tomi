@@ -97,6 +97,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/mai
 	end,
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
+page:Button({
+	Title = "aussie wire hub",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/4f5c7bbe546251d81e9d3554b109008f.lua"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
 local section = tab:createsection({
 Name = "doors"
 })

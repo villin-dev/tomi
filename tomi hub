@@ -34,6 +34,75 @@ local tab = main:createtab({
 	Name = "scripts para juegos"
 })
 local section = tab:createsection({
+Name = "strongest"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para strongest",
+})
+-- Functions
+-- a:Update("Xova's Team Best UI")
+page:Button({
+	Title = "phantasm",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+local section = tab:createsection({
+Name = "blue lock rivals"
+})
+local page = section:createpage()
+a = page:Label({
+	Title = "scripts para blue lock rivals",
+})
+page:Line()
+a = page:Label({
+	Title = "movesets",
+})
+page:Button({
+	Title = "rey de reyes",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthuhubX/Blue-lock-styles/refs/heads/main/JKOBFUSCATED.lua"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "gocu",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/refs/heads/main/GoatKu"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Line()
+a = page:Label({
+	Title = "exploits",
+})
+page:Button({
+	Title = "scroto control",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://pastefy.app/EAtmdHH0/raw"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+-- Functions
+-- a:Update("Xova's Team Best UI")
+-- Functions
+-- a:Update("Xova's Team Best UI")
+-- Functions
+-- a:Update("Xova's Team Best UI")
+-- Functions
+-- a:Update("Xova's Team Best UI")
+local page = section:createpage()
+local section = tab:createsection({
 Name = "fisch"
 })
 local page = section:createpage()

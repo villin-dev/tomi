@@ -80,6 +80,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/r
 	end,
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
+page:Button({
+	Title = "extravagancia",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stylemakeritosh/Ace/refs/heads/main/Acestyle"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
 page:Line()
 a = page:Label({
 	Title = "exploits",
@@ -90,6 +99,15 @@ page:Button({
 	AutoSize = true,
 	callback = function()
 loadstring(game:HttpGet("https://pastefy.app/EAtmdHH0/raw"))()
+	end,
+  -- Theme Mode {"Defualt","Delete","Delete Fill"}
+})
+page:Button({
+	Title = "gol gratis asi bien ez",
+	Mode = "Defualt",
+	AutoSize = true,
+	callback = function()
+loadstring(game:HttpGet("https://pastefy.app/YYr2aFGe/raw"))()
 	end,
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })

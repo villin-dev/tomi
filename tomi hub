@@ -111,6 +111,9 @@ loadstring(game:HttpGet("https://pastefy.app/YYr2aFGe/raw"))()
 	end,
   -- Theme Mode {"Defualt","Delete","Delete Fill"}
 })
+page:Modal({
+	Title = "para el gol gratis tienes q esperar a que se termine un partido, luego te metes y lo activas"
+})
 -- Functions
 -- a:Update("Xova's Team Best UI")
 -- Functions
